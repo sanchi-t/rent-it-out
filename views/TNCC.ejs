@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Javascript Online Shopping Cart Example</title>
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style1.css">
+    <!-- Demo CSS (No need to include it into your project) -->
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/Style.css">
+
+
+</head>
+
+<body>
+
+    <div class="col-md-6 col-12 text-center" style="background-color: #3bbba8;">
+        <h1 class="my-md-3 site-title text-white" style="text-align: center;">Rentitout</h1>
+
+
+    </div>
+    <main>
+        <!-- Start DEMO HTML (Use the following code into your project)-->
+        <header class="header">
+            <div class="container header__top">
+                <div class="header__logo">
+
+                </div>
+                <div class="header__cart">
+                    <ul>
+                        <li class="header__submenu" id="submenu">
+                            <button class="header__cart-btn" id="toggle-cart-btn"><svg class="cart" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z">
+                                    </path>
+                                </svg> Your Cart</button>
+                            <div id="shopping-cart" class="shopping-cart-container">
+                                <table id="cart-content">
+                                    <thead>
+                                        <tr>
+                                            <th>Image</th>
+                                            <th>Name</th>
+                                            <th>Price</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <p class="total-container" id="total-price"></p>
+                                <a href="/checkout"  class="cart-btn">Checkout</a>
+                                <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="our-team pt-4">Tables and Chairs</div>
+        <p>Make sure you and your guests are comfortably seated in your home with our wide
+        collection of chairs.</p>
+        <div class="b-border"></div>
+        <main class="container page-content">
+            <!-- <h2 class="page-title">Beds</h2> -->
+            <div class="aman" id="aman">
+                <div class="card">
+                    <img src="assets/Tnc1.jpeg" class="card__image" alt=""><br>
+                    <div class="card__info">
+
+                        <h4 class="card__title">High Back Executive chair-Black</h4>
+                        <br>
+                        <label for="bed">Select Tenure:</label>
+                        <select name="bed" id="bed">
+
+                            <option value="399" class="card__price">one month:RS 179</option>
+                            <option value="1799" class="card__price">six month:Rs 899</option>
+                            <option value="2899" class="card__price">twelve month:Rs 1599</option><br>
+                        </select><br><br>
+                        <button class="card__btn add-to-cart" data-id="6">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <!--.card-->
+                <div class="card">
+                    <img src="assets/Tnc2.jpeg" class="card__image" alt=""><br>
+                    <div class="card__info">
+                        <h4 class="card__title">Bed side Table Vanitio</h4>
+                        <br>
+                        <label for="bed">Select Tenure:</label>
+                        <select name="bed" id="bed">
+
+                            <option value="399" class="card__price">one month:RS 169</option>
+                            <option value="1799" class="card__price">six month:Rs 899</option>
+                            <option value="3299" class="card__price">twelve month:Rs 1699</option>
+                        </select><br><br>
+                        <button class="card__btn add-to-cart" data-id="7">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <!--.card-->
+                <div class="card">
+                    <img src="assets/Tnc3.jpeg" class="card__image" alt=""><br>
+                    <div class="card__info">
+                        <h4 class="card__title">Study tables with drawers</h4>
+                        <br>
+                        <label for="bed">Select Tenure:</label>
+                        <select name="bed" id="bed">
+
+                            <option value="249" class="card__price">one month:RS 299</option>
+                            <option value="1199" class="card__price">six month:Rs 799</option>
+                            <option value="2399" class="card__price">twelve month:Rs 2399</option>
+
+
+                            <button class="card__btn add-to-cart" data-id="8">Add to Cart</button>
+                    </div>
+                </div>
+                <br><br>
+                <!--.card-->
+                <div class="card">
+                    <img src="assets/Tnc4.jpeg" alt="" class="card__image"><br>
+                    <div class="card__info">
+                        <h4 class="card__title">Navy Double Fabric Bed</h4>
+                        <br>
+                        <label for="bed">Select Tenure:</label>
+                        <select name="bed" id="bed">
+
+                            <option value="209" class="card__price">one month:RS 209</option>
+                            <option value="1399" class="card__price">six month:Rs 1399</option>
+                            <option value="2099" class="card__price">twelve month:Rs 2099</option>
+                        </select><br><br>
+                        <button class="card__btn add-to-cart" data-id="9">Add to Cart</button>
+                    </div>
+                </div>
+                <!--.card-->
+                <br><br>
+                <div class="card">
+                    <img src="assets/Tnc6.jpeg" alt="" class="card__image"><br>
+                    <div class="card__info">
+                        <h4 class="card__title">Beige Double Fabric Bed</h4>
+                        <br>
+                        <label for="bed">Select Tenure:</label>
+
+                        <select name="bed" id="bed">
+
+                            <option value="199" class="card__price">one month:RS 199</option>
+                            <option value="1099" class="card__price">six month:Rs 1099</option>
+                            <option value="299" class="card__price">twelve month:Rs 299</option>
+                        </select><br><br>
+                        <button class="card__btn add-to-cart" data-id="10">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <br><br><br>
+        </main>
+
+
+    </main>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
