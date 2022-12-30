@@ -35,17 +35,21 @@ nodemon index
 
 
 # Working of website
+![brave_5KbexBvd0j](https://user-images.githubusercontent.com/98596642/210036372-dec42ac0-2f34-4311-a1bf-db8ee5ab5988.png)
 
-![brave_5KbexBvd0j](https://user-images.githubusercontent.com/98596642/210035901-28b36760-d189-4339-b3ac-6b3ca3336404.png)
-![brave_eCTqJTVuX8](https://user-images.githubusercontent.com/98596642/210035922-5d93a6d0-3ffb-4333-948c-45796191973a.png)
-![brave_efvyf9durH](https://user-images.githubusercontent.com/98596642/210035965-c642928c-d95c-44a8-9e4f-8e73a9b1e37f.png)
+![brave_eCTqJTVuX8](https://user-images.githubusercontent.com/98596642/210036366-dd0d3f26-9865-475e-b592-1279778e1d9f.png)
 
-![brave_Gnwdn8I1QV](https://user-images.githubusercontent.com/98596642/210035969-15bc5e68-666e-4124-9043-02bba232475e.png)
+![brave_efvyf9durH](https://user-images.githubusercontent.com/98596642/210036358-b09c6539-18a2-48b6-8106-f59cda93bb94.png)
 
-![brave_N1dpNh8qbC](https://user-images.githubusercontent.com/98596642/210035975-54a0c4d8-693e-4ccc-96c6-451b5eb99881.png)
-![brave_Tq4icvu6R3](https://user-images.githubusercontent.com/98596642/210035981-94abf326-d99e-413c-a013-09b6406b3950.png)
-![brave_u3S0Iwx1Yf](https://user-images.githubusercontent.com/98596642/210035985-af43a25d-49df-4963-87ee-b21a90ef91b4.png)
-![brave_XvRYMBWMTJ](https://user-images.githubusercontent.com/98596642/210035987-c81ed8a7-bdee-4632-9d90-825ba75b5431.png)
+![brave_Gnwdn8I1QV](https://user-images.githubusercontent.com/98596642/210036348-40ed0b2b-629b-4f01-b18a-2da932c5f5fd.png)
+
+![brave_N1dpNh8qbC](https://user-images.githubusercontent.com/98596642/210036340-ae354ae1-79c8-484d-a9fa-b43ec27b11a6.png)
+
+![brave_Tq4icvu6R3](https://user-images.githubusercontent.com/98596642/210036327-72c940cc-bc97-45b3-8983-4d9d3a2569bc.png)
+![brave_u3S0Iwx1Yf](https://user-images.githubusercontent.com/98596642/210036318-70b12ffb-6efe-44c4-91cb-e79ebb240433.png)
+
+![brave_XvRYMBWMTJ](https://user-images.githubusercontent.com/98596642/210036296-725ee68c-d9be-479a-8962-1b798ca505cc.png)
+
 
 
 
